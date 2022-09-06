@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aprenda Ingles</string>
+    <string name="smartTab_animal">Bichos</string>
+    <string name="smartTab_number">Números</string>
+    <string name="smartTab_vowel">Vogais</string>
+    <string name="fragment_animal_dog_description">Cachorro</string>
+    <string name="fragment_animal_cat_description">Gato</string>
+    <string name="fragment_animal_lion_description">Leão</string>
+    <string name="fragment_animal_monkey_description">Macaco</string>
+    <string name="fragment_animal_sheep_description">Ovelha</string>
+    <string name="fragment_animal_cow_description">Vaca</string>
+    <string name="fragment_number_one_description">Um</string>
+    <string name="fragment_number_two_description">Dois</string>
+    <string name="fragment_number_three_description">Três</string>
+    <string name="fragment_number_four_description">Quatro</string>
+    <string name="fragment_number_five_description">Cinco</string>
+    <string name="fragment_number_six_description">Seis</string>
+    <string name="fragment_animal_rights_description">Feito por freepik.com</string>
+</resources>

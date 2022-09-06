@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AnimalFragment">
+
+<!--    <android.widget.Button-->
+    <ImageButton
+        android:id="@+id/fragment_animal_image_dog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/cao"
+        android:contentDescription="@string/fragment_animal_dog_description"
+        app:layout_constraintBottom_toTopOf="@+id/fragment_animal_image_lion"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_animal_image_cat"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <ImageButton
+        android:id="@+id/fragment_animal_image_sheep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ovelha"
+        android:contentDescription="@string/fragment_animal_sheep_description"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_rights"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_animal_image_cow"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_animal_image_lion" />
+
+    <ImageButton
+        android:id="@+id/fragment_animal_image_lion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/leao"
+        android:contentDescription="@string/fragment_animal_lion_description"
+        app:layout_constraintBottom_toTopOf="@+id/fragment_animal_image_sheep"
+        app:layout_constraintEnd_toStartOf="@+id/fragment_animal_image_monkey"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_animal_image_dog" />
+
+    <ImageButton
+        android:id="@+id/fragment_animal_image_monkey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/macaco"
+        android:contentDescription="@string/fragment_animal_monkey_description"
+        app:layout_constraintBottom_toTopOf="@+id/fragment_animal_image_cow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fragment_animal_image_lion"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_animal_image_cat" />
+
+    <ImageButton
+        android:id="@+id/fragment_animal_image_cow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/vaca"
+        android:contentDescription="@string/fragment_animal_cow_description"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_rights"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fragment_animal_image_sheep"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_animal_image_monkey" />
+
+    <ImageButton
+        android:id="@+id/fragment_animal_image_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gato"
+        android:contentDescription="@string/fragment_animal_cat_description"
+        app:layout_constraintBottom_toTopOf="@+id/fragment_animal_image_monkey"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/fragment_animal_image_dog"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <ImageButton
+        android:id="@+id/imageView_rights"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/fragment_animal_rights_description"
+        android:src="@drawable/direitos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

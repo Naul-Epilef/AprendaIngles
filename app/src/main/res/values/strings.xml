@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Learn English</string>
+    <string name="smartTab_animal">Animals</string>
+    <string name="smartTab_number">Numbers</string>
+    <string name="smartTab_vowel">Vowels</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="fragment_animal_dog_description">Dog</string>
+    <string name="fragment_animal_cat_description">Cat</string>
+    <string name="fragment_animal_lion_description">Lion</string>
+    <string name="fragment_animal_monkey_description">Monkey</string>
+    <string name="fragment_animal_sheep_description">Sheep</string>
+    <string name="fragment_animal_cow_description">Cow</string>
+    <string name="fragment_number_one_description">One</string>
+    <string name="fragment_number_two_description">Two</string>
+    <string name="fragment_number_three_description">Three</string>
+    <string name="fragment_number_four_description">Four</string>
+    <string name="fragment_number_five_description">Five</string>
+    <string name="fragment_number_six_description">Six</string>
+    <string name="fragment_animal_rights_description">Designed by freepik.com</string>
+</resources>
